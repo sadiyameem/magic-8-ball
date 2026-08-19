@@ -8,11 +8,17 @@
     </head>
     <body>
         <h1>🎱 Magic 8 Ball 🎱</h1>
+        <p>Type your question and the ball will give you the answer</p>
         <div id="container">
             <div id="ball">
                 <div id="ball-number">8</div>
             </div>
-            <div id="answers"></div>
+            <div class="questionBox">
+                <h3>Type your question:</h3>
+                <input type="text" name="fortuneQuestion"
+                id="fortuneQuestion" placeholder="Enter a question here"/>
+            </div>
+            <div id="answer"></div>
         </div>
     </body>
     <script src="script.js"></script>
